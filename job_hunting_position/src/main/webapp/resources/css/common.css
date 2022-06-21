@@ -1,0 +1,32 @@
+@charset "UTF-8";
+.content-container {
+	margin-bottom: 50px;
+	margin-left: 50px;
+	margin-right: 50px;
+	min-height:400px;
+}
+
+.list-container {
+	margin-top: 30px
+}
+
+.list-container .search-container {
+	margin: 20px;
+}
+
+.list-container .search-button-container {
+	margin: 30px;
+	text-align: right;
+}
+
+.content-container .btn-container{
+	text-align:right;
+}
+
+.content-container .list-container{
+	text-align:center;
+}
+
+.content-container .form-container{
+	text-align:center;
+}

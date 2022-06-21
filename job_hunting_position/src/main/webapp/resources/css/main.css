@@ -1,0 +1,67 @@
+@charset "UTF-8";
+/* head */
+#head_menu{
+	border:0.5px solid gray;
+	height: 30px;
+}
+#head_content{
+	height:30px;
+	line-height:15px;
+}
+/* nav */
+#nav_menu{
+	height:60px;
+	margin:auto;
+	/* margin-top:20px; 고민해보기 */
+	text-align: center;
+}
+#nav_content{
+	line-height:60px;
+}
+#nav_content a{
+	text-decoration: none;
+}	
+/* main */
+#slide_img{
+	height: 600px;
+}
+#middle_bar{
+	text-align: center;
+	margin-top: 40px;
+	height: 50px;
+	color:white;
+	width: 50%;
+}
+#carouselExampleInterval{
+	width: 80%;
+	margin:auto;
+}
+#content_img{
+	height: 280px;
+	width: 280px;
+	margin: auto;
+}
+/* foot */
+#foot{
+	height: 150px;
+	margin-top: 50px;
+}
+#dev_logo{
+	height: 150px;
+	width: 300px;
+}
+#foot_content{
+	margin:auto;
+	border-right: 1px solid gray;
+	font-size: 14px;
+}
+#foot_logo{
+	text-align: center;
+}
+#foot_logo img{
+	height: 135px;
+	width: 35px;
+	position:relative;
+	top: 57.5;	
+	margin-right: 30px;
+}

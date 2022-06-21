@@ -1,0 +1,32 @@
+@charset "UTF-8";
+#login{
+	height: 500px;
+}
+#login_header{
+	text-align: center;
+}
+#login #login_radio_div{
+	text-align: center;
+	margin-top: 20px;
+}
+#login_btn_div{
+	text-align: center;
+	height: 130px;
+	border-bottom: 0.5px solid black;
+}
+#login_btn_div #login_btn{
+	width: 300px;
+	height: 40px;
+	margin-top: 15px;
+}
+#modal_img_div{
+	text-align: center;
+	margin-top: 15px;
+}
+#modal_img_div #modal_img{
+	height: 160px;
+	width: 400px;
+}
+#login_radio_div #login_radio{
+	width: 221px;
+}
