@@ -10,3 +10,4 @@
 <link href="/resources/css/sign_up.css" rel="stylesheet">
 <link href="/resources/css/company_sign_up.css" rel="stylesheet">
 <link href="/resources/css/common.css" rel="stylesheet">
+<link href="/resources/css/community.css" rel="stylesheet">

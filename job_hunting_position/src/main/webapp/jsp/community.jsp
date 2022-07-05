@@ -13,15 +13,6 @@ String dbData = "디비에서 가져온 데이";
 <meta charset="UTF-8">
 <title>community_page</title>
 <%@ include file="/include/lib.jsp"%>
-<style>
-#cm_div{
-	width: 1300px;
-	margin-top: 50px;
-}
-#Bbs_Title{
-	cursor: pointer;
-}
-</style>
 </head>
 <body>
 	<%@ include file="/include/header.jsp"%>
@@ -40,7 +31,7 @@ String dbData = "디비에서 가져온 데이";
 				</tr>
 			</thead>
 			<tbody>
-				<tr id="Bbs_Title" onclick="location.href = '/게시물 상세 페이지'">
+				<tr id="Bbs_Title" onclick="location.href = '/jsp/community_Detail.jsp'">
 					<th scope="row">1</th>
 					<td>코드 좀 봐주세요</td>
 					<td>bbb1</td>
@@ -59,6 +50,7 @@ String dbData = "디비에서 가져온 데이";
 					<td>2022-07-01 12:05</td>
 			</tbody>
 		</table>
+		<button type="button" class="btn btn-outline-primary" onclick="location='/jsp/community_Create.jsp'" style="float: right;">작성하기</button>
 		<br>
 		<nav aria-label="Page navigation example">
 				<ul class="pagination justify-content-center">
