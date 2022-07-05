@@ -5,6 +5,16 @@
 <meta charset="UTF-8">
 <title>Company Sign Up Page</title>
 <%@ include file="/include/lib.jsp"%>
+<style>
+#company_sign_up{
+	background-color: #D3D3D3;
+	height: 890px;
+	width: 600px;
+	margin-top:60px;
+	text-align: center;
+	border-radius: 15px 15px 15px 15px;
+}
+</style>
 </head>
 <body>
 	<%@ include file="/include/company_header.jsp"%>

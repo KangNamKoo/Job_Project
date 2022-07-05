@@ -13,65 +13,51 @@ String dbData = "디비에서 가져온 데이";
 <meta charset="UTF-8">
 <title>community_page</title>
 <%@ include file="/include/lib.jsp"%>
+<style>
+#cm_div{
+	width: 1300px;
+	margin-top: 50px;
+}
+</style>
 </head>
 <body>
 	<%@ include file="/include/header.jsp"%>
 	<%@ include file="/include/nav.jsp"%>
 	<%@ include file="/include/login.jsp"%>
 
-	<script>
-		$(function() {
-			$('#btn-create').click(function() {
-				window.location.href = "/jsp/communityRegForm.jsp";
-			})
-
-			$('.table tr').click(function() {
-				window.location.href = "/jsp/communityView.jsp";
-			})
-		})
-	</script>
-	<div class="content-container">
-		<div class="list-container">
-			<div class="search-container">
-				<span>title : <input type="text"></span> <span>title : <input type="text">
-				</span>
-
-			</div>
-			<div class="btn-container">
-				<button>Search</button>
-				<button id="btn-create">Create</button>
-			</div>
-
-			<table class="table">
-				<thead>
-					<tr>
-						<th scope="col">#</th>
-						<th scope="col"><%=dbData %></th>
-						<th scope="col">Last</th>
-						<th scope="col">Handle</th>
-					</tr>
-				</thead>
-				<tbody>
-					<tr>
-						<th scope="row">1</th>
-						<td>Mark</td>
-						<td>Otto</td>
-						<td>@mdo</td>
-					</tr>
-					<tr>
-						<th scope="row">2</th>
-						<td>Jacob</td>
-						<td>Thornton</td>
-						<td>@fat</td>
-					</tr>
-					<tr>
-						<th scope="row">3</th>
-						<td colspan="2">Larry the Bird</td>
-						<td>@twitter</td>
-					</tr>
-				</tbody>
-			</table>
-			<nav aria-label="Page navigation example">
+<!-- div 전체를 클릭했을때 손가락 나오면서 게시물 한줄 전체가 눌리면서 화면이동 -->
+	<div id="cm_div" class="container-fluid">
+		<table class="table">
+			<thead>
+				<tr>
+					<th scope="col">글 번호</th>
+					<th scope="col">글 제목</th>
+					<th scope="col">작성자</th>
+					<th scope="col">날짜</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<th scope="row">1</th>
+					<td>코드 좀 봐주세요</td>
+					<td>bbb1</td>
+					<td>2022-07-01 12:05</td>
+				</tr>
+				<tr>
+					<th scope="row">2</th>
+					<td>코드 리뷰 부탁드립니다</td>
+					<td>aaa1</td>
+					<td>2022-07-01 12:05</td>
+				</tr>
+				<tr>
+					<th scope="row">3</th>
+					<td>도와주세요</td>
+					<td>aaa2</td>
+					<td>2022-07-01 12:05</td>
+			</tbody>
+		</table>
+		<br>
+		<nav aria-label="Page navigation example">
 				<ul class="pagination justify-content-center">
 					<li class="page-item disabled"><a class="page-link">Previous</a></li>
 					<li class="page-item"><a class="page-link" href="#">1</a></li>
@@ -80,8 +66,6 @@ String dbData = "디비에서 가져온 데이";
 					<li class="page-item"><a class="page-link" href="#">Next</a></li>
 				</ul>
 			</nav>
-
-		</div>
 	</div>
 	<%@ include file="/include/foot.jsp"%>
 </body>
