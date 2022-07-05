@@ -29,8 +29,11 @@
 				</div>
 			</div>
 			<div id="sign_up_input" class="container">
-				<input id="name_input" type="text" name="company_name" value="" placeholder="회사명을 입력하세요."> <input id="id_input" type="text" name="compnay_addr" value="" placeholder="회사주소를를 입력하세요."> <input id="pw_input" type="text" name="company_registration_number" value=""
-					placeholder="사업자등록번호를 입력하세요."> <input id="pwcheck_input" type="text" name="ceo_name" value="" placeholder="대표자명을 입력하세요.">
+				<input id="name_input" type="text" name="company_name" value="" placeholder="회사명을 입력하세요."> 
+				<input id="id_input" type="text" name="compnay_addr" value="" placeholder="회사주소를 입력하세요."> 
+				<input id="id_input" type="text" name="compnay_url" value="" placeholder="도메인을 입력하세요."> 
+				<input id="pw_input" type="text" name="company_registration_number" value="" placeholder="사업자등록번호를 입력하세요."> 
+				<input id="pwcheck_input" type="text" name="ceo_name" value="" placeholder="대표자명을 입력하세요.">
 				<h3 style="margin-top: 25px;">
 					<b>인사담당자 정보</b>
 				</h3>
