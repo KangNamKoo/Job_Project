@@ -16,7 +16,6 @@
 	<%@ include file="/include/header.jsp"%>
 	<%@ include file="/include/nav.jsp"%>
 	<%@ include file="/include/login.jsp"%>
-	<!-- div 전체를 클릭했을때 손가락 나오면서 게시물 한줄 전체가 눌리면서 화면이동 -->
 	<div id="ri_div" class="container-fluid">
 		<table class="table">
 			<thead>
@@ -30,8 +29,8 @@
 			<tbody>
 				<tr>
 					<th scope="row">1</th>
-					<td><a href="#">삼성</a></td>
-					<td><a href="#">삼성 공채 채용</a></td>
+					<td><a href="기업 상세 페이지">삼성</a></td>
+					<td><a href="기업 공고 상세 페이지">삼성 공채 채용</a></td>
 					<td>2022-07-01 ~ 2022-08-01</td>
 				</tr>
 				<tr>

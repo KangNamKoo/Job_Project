@@ -31,8 +31,8 @@
 			<tbody>
 				<tr>
 					<th scope="row">1</th>
-					<td><a href="#">aaa1</a></td>
-					<td><a href="#">함께하는 지원자!</a></td>
+					<td>aaa1</td>
+					<td><a href="구직자 이력서 상세 페이지">함께하는 지원자!</a></td>
 					<td>Java, JavaScript, CSS</td>
 				</tr>
 				<tr>

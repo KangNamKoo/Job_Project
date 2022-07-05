@@ -18,6 +18,9 @@ String dbData = "디비에서 가져온 데이";
 	width: 1300px;
 	margin-top: 50px;
 }
+#Bbs_Title{
+	cursor: pointer;
+}
 </style>
 </head>
 <body>
@@ -37,7 +40,7 @@ String dbData = "디비에서 가져온 데이";
 				</tr>
 			</thead>
 			<tbody>
-				<tr>
+				<tr id="Bbs_Title" onclick="location.href = '/게시물 상세 페이지'">
 					<th scope="row">1</th>
 					<td>코드 좀 봐주세요</td>
 					<td>bbb1</td>
