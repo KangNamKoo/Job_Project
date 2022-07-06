@@ -32,4 +32,6 @@
 	<%@ include file="/include/foot.jsp"%>
 </body>
 </html>
+<%
 
+%>
