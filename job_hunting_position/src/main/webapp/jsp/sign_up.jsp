@@ -22,7 +22,7 @@
 					</div>
 					<div style="margin-top: 20px;" class="col">
 						<div class="form-check">
-							<input style="background-color: #4aa8d8" class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" onclick="location.href = '/jsp/company_sign_up.jsp' "> <label class="form-check-label" for="exampleRadios1"> <b>기업</b>
+							<input style="background-color: #4aa8d8" class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" onclick="location.href = '/jsp/Company_Sign_Up.jsp' "> <label class="form-check-label" for="exampleRadios1"> <b>기업</b>
 							</label>
 						</div>
 					</div>

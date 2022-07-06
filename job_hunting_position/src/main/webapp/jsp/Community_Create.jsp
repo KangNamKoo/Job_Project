@@ -17,7 +17,7 @@
 	<h1 style="text-align: center; margin-top: 20px;">작성페이지</h1>
 	<form action="/" method="post">
 		<div id="cc_div" class="container-fluid">
-			<button onclick="location='/jsp/community.jsp'" type="button" class="btn btn-outline-primary">뒤로가기</button>
+			<button onclick="location='/jsp/Community.jsp'" type="button" class="btn btn-outline-primary">뒤로가기</button>
 			<div class="mb-3">
 				<label for="exampleFormControlInput1" class="form-label">글제목</label> <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="글제목" name="bbs_Title"> <input type="hidden" class="form-control" id="exampleFormControlInput1" placeholder="숫자" name="bbs_Num" value="">
 				<input type="hidden" class="form-control" id="exampleFormControlInput1" placeholder="날짜" name="bbs_Regdate" value="">

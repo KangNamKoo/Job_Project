@@ -1,11 +1,6 @@
 <%@page import="java.util.List"%>
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
-<%
-List list = (List) request.getAttribute("list");
 
-System.out.println("DB에서 데이터 가져오");
-String dbData = "디비에서 가져온 데이";
-%>
 
 <!DOCTYPE html>
 <html>
@@ -31,7 +26,7 @@ String dbData = "디비에서 가져온 데이";
 				</tr>
 			</thead>
 			<tbody>
-				<tr id="Bbs_Title" onclick="location.href = '/jsp/community_Detail.jsp'">
+				<tr id="Bbs_Title" onclick="location.href = '/jsp/Community_Detail.jsp'">
 					<th scope="row">1</th>
 					<td>코드 좀 봐주세요</td>
 					<td>bbb1</td>
@@ -50,7 +45,7 @@ String dbData = "디비에서 가져온 데이";
 					<td>2022-07-01 12:05</td>
 			</tbody>
 		</table>
-		<button type="button" class="btn btn-outline-primary" onclick="location='/jsp/community_Create.jsp'" style="float: right;">작성하기</button>
+		<button type="button" class="btn btn-outline-primary" onclick="location='/jsp/Community_Create.jsp'" style="float: right;">작성하기</button>
 		<br>
 		<nav aria-label="Page navigation example">
 				<ul class="pagination justify-content-center">
