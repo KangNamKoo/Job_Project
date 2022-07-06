@@ -10,16 +10,16 @@
 			<div class="container">
 				<div class="row">
 					<div id="nav_content" class="col-3">
-						<a href="/jsp/recruitment_information.jsp"><b style="color: white; font-size: 20px">채용정보</b></a>
+						<a href="/jsp/Recruitment_Information.jsp"><b style="color: white; font-size: 20px">채용정보</b></a>
 					</div>
 					<div id="nav_content" class="col-3">
-						<a href="/jsp/talent_information.jsp"><b style="color: white; font-size: 20px">인재정보</b></a>
+						<a href="/jsp/Talent_Information.jsp"><b style="color: white; font-size: 20px">인재정보</b></a>
 					</div>
 					<div id="nav_content" class="col-3">
-						<a href="/jsp/community.jsp"><b style="color: white; font-size: 20px">커뮤니티</b></a>
+						<a href="/jsp/Community.jsp"><b style="color: white; font-size: 20px">커뮤니티</b></a>
 					</div>
 					<div id="nav_content" class="col-3">
-						<a href="/jsp/main.jsp"><b style="color: white; font-size: 20px">일반회원</b></a>
+						<a href="/jsp/Main.jsp"><b style="color: white; font-size: 20px">일반회원</b></a>
 					</div>
 				</div>
 			</div>

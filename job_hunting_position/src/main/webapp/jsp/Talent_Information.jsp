@@ -48,6 +48,7 @@
 					<td>Java, JavaScript, CSS</td>
 			</tbody>
 		</table>
+		<button type="button" class="btn btn-outline-primary" onclick="location='/jsp/Talent_Create.jsp'" style="float: right;">작성하기</button>
 		<br>
 		<nav aria-label="Page navigation example">
 				<ul class="pagination justify-content-center">
