@@ -48,8 +48,8 @@ String dbData = "디비에서 가져온 데이";
 				</div>
 			</div>
 		</div>
-		<button type="submit" class="btn btn-outline-primary" style="float: right; height: 80px; width: 100px; margin: auto; margin-top: 40px; text-align: center;" onclick="location='/community.jsp'">목록</button>
-		<button type="submit" class="btn btn-outline-primary" style="float: right; height: 80px; width: 100px; margin: auto; margin-top: 40px; text-align: center;" onclick="/수정하기 페이지">수정하기</button>
+		<button type="submit" class="btn btn-outline-primary" style="float: right; height: 80px; width: 100px; margin: auto; margin-top: 40px; text-align: center;" onclick="location='/Community.jsp'">목록</button>
+		<button type="button" class="btn btn-outline-primary" style="float: right; height: 80px; width: 100px; margin: auto; margin-top: 40px; text-align: center;" onclick="location='/jsp/Community_Update.jsp'">수정하기</button>
 		<button type="submit" class="btn btn-outline-primary" style="float: right; height: 80px; width: 100px; margin: auto; margin-top: 40px; text-align: center;" onclick="/삭제하기.do">삭제하기</button>
 	</div>
 	<%@ include file="/include/foot.jsp"%>

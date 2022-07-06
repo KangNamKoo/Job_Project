@@ -16,7 +16,7 @@
 						<a href="/jsp/talent_information.jsp"><b style="color: white; font-size: 20px">인재정보</b></a>
 					</div>
 					<div id="nav_content" class="col-3">
-						<a href="/jsp/community.jsp"><b style="color: white; font-size: 20px">커뮤니티</b></a>
+						<a href="/jsp/Community.jsp"><b style="color: white; font-size: 20px">커뮤니티</b></a>
 					</div>
 					<div id="nav_content" class="col-3">
 						<a href="/jsp/company_main.jsp"><b style="color: white; font-size: 20px">기업회원</b></a>

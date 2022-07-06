@@ -1,11 +1,5 @@
 <%@page import="java.util.List"%>
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
-<%
-List list = (List) request.getAttribute("list");
-
-System.out.println("DB에서 데이터 가져오");
-String dbData = "디비에서 가져온 데이";
-%>
 
 <!DOCTYPE html>
 <html>
@@ -30,7 +24,7 @@ String dbData = "디비에서 가져온 데이";
 			</div>
 			<div class="mb-3">
 				<label for="exampleFormControlTextarea1" class="form-label">글내용</label>
-				<textarea class="form-control" id="exampleFormControlTextarea1" rows="3" name="bbs_Content"></textarea>
+				<textarea style="height: 400px;" class="form-control" id="exampleFormControlTextarea1" rows="3" name="bbs_Content"></textarea>
 			</div>
 			<button type="submit" class="btn btn-outline-primary" style="float: right;">작성하기</button>
 		</div>
