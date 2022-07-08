@@ -98,6 +98,40 @@
 	width: 280px;
 	background-color: #4aa8d8;
 }
+.form_radio_btn {
+			width: 47%;
+			height : 45px;
+    		border: 1px solid gray;
+    		border-radius: 10px;
+		}
+		.form_radio_btn input[type=radio] {
+			display: none;
+		}
+		.form_radio_btn label {
+			display: block;
+    		border-radius: 10px;
+   			margin: 0 auto;
+    		text-align: center;
+    		height: -webkit-fill-available;
+    		line-height: 45px;
+		}
+		 
+		/* Checked */
+		.form_radio_btn input[type=radio]:checked + label {
+			background: #4aa8d8;
+			color: #fff;
+		}
+		 
+		/* Hover */
+		.form_radio_btn label:hover {
+			color: #666;
+		}
+		 
+		/* Disabled */
+		.form_radio_btn input[type=radio] + label {
+			background: #F9FAFC;
+			color: #666;
+		}
 </style>
 </head>
 <body>
@@ -126,9 +160,38 @@
 				</h2>
 			</div>
 			<div id="sign_up_input" class="container">
-				<input id="name_input" type="text" name="name" value="" placeholder="이름을 입력하세요."> <input id="id_input" type="text" name="id" value="" placeholder="아이디를 입력하세요."> <input id="pw_input" type="password" name="pw" value="" placeholder="비밀번호를 입력하세요."> <input id="pwcheck_input"
-					type="password" name="pwcheck" value="" placeholder="비밀번호 재확인."> <input id="email_input" type="email" name="email" value="" placeholder="이메일을 입력하세요."> <input id="number_input" type="text" name="number" value="" placeholder="휴대폰 번호를 입력세요."> <input id="add1_input"
-					type="text" name="add1" value="" placeholder="주소를 입력하세요"> <input id="add2_input" type="text" name="add2" value="" placeholder="상세주소 입력"> <input id="age_input" type="datetime" name="age" value="" placeholder="나이 입력.(수정해야됨)">
+			<div class="container">
+  <div class="row">
+    <div class="col">
+      <h5>경력사항</h5>
+    </div>
+    <div class="col">
+		<div class="mb-3">
+	<div class="form_toggle row-vh d-flex flex-row justify-content-between" >
+		<div class="form_radio_btn radio_male">
+			<input id="radio-1" type="radio" name="userSex" value="male" checked>
+			<label for="radio-1">신입</label>
+		</div>
+									 
+		<div class="form_radio_btn">
+			<input id="radio-2" type="radio" name="userSex" value="female">
+			<label for="radio-2">경력</label>
+		</div>
+	</div>
+</div>
+    </div>
+  </div>
+</div>
+				
+				<input id="name_input" type="text" name="name" value="" placeholder="이름을 입력하세요."> 
+				<input id="id_input" type="text" name="id" value="" placeholder="아이디를 입력하세요."> 
+				<input id="pw_input" type="password" name="pw" value="" placeholder="비밀번호를 입력하세요."> 
+				<input id="pwcheck_input" type="password" name="pwcheck" value="" placeholder="비밀번호 재확인.">
+				<input id="email_input" type="email" name="email" value="" placeholder="이메일을 입력하세요.">
+				<input id="number_input" type="text" name="number" value="" placeholder="휴대폰 번호를 입력세요.">
+				<input id="add1_input" type="text" name="add1" value="" placeholder="주소를 입력하세요">
+				<input id="add2_input" type="text" name="add2" value="" placeholder="상세주소 입력"> 
+				<input id="age_input" type="datetime" name="age" value="" placeholder="나이 입력.">
 			</div>
 			<div id="sign_up_btn_div" class="container">
 				<button id="sign_up_btn" type="submit" class="btn btn-secondary">
