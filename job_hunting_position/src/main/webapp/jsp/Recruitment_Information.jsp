@@ -30,7 +30,7 @@
 				<tr>
 					<th scope="row">1</th>
 					<td><a href="기업 상세 페이지">삼성</a></td>
-					<td><a href="기업 공고 상세 페이지">삼성 공채 채용</a></td>
+					<td><a href="Recruitment_Detail.jsp">삼성 공채 채용</a></td>
 					<td>2022-07-01 ~ 2022-08-01</td>
 				</tr>
 				<tr>

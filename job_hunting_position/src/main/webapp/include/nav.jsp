@@ -3,7 +3,7 @@
 	<div class="row">
 		<div id="dev_img" class="col-4" style="height: 60px;">
 			<h1 style="line-height: 60px;">
-				<a style="text-decoration: none; color: black" href="/jsp/Main.jsp"><b style="font-size: 50px">dev.com</b></a>
+				<a style="text-decoration: none; color: black" href="/jsp/MainPage.jsp"><b style="font-size: 50px">dev.com</b></a>
 			</h1>
 		</div>
 		<div class="col-8" style="border-radius: 28px 0px 0px 28px; background-color: #4aa8d8; height: 60px">

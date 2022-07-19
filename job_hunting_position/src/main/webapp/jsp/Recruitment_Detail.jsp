@@ -14,6 +14,7 @@
 	<%@ include file="/include/login.jsp"%>
 
 	<h1 style="text-align: center; margin-top: 20px;">채용공고 상세 페이지</h1>
+	<
 	
 	<%@ include file="/include/foot.jsp"%>
 </body>
